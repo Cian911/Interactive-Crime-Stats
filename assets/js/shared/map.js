@@ -8,7 +8,7 @@ function initMap(map) {
   map = new google.maps.Map(map_container, {
     center: {lat: v_lat, lng: v_lng},
     zoom: 13,
-    scrollwheel: false
+    scrollwheel: true
   });
 
 }
