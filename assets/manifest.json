@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "main.css": {
+      "files": [
+        "sass/main.scss"
+      ],
+      "main": true
+    },
+    "vendor.css": {
+      "files": [
+        "plugins/bootstrap/css/bootstrap.min.css"
+      ]
+    },
+    "vendor.min.js": {
+      "files": [
+        "plugins/jquery/jquery-3.1.1.min.js",
+        "plugins/bootstrap/js/bootstrap.min.js"
+      ]
+    },
+    "main.min.js":{
+      "files":[
+        "js/_main.js"
+      ]
+    },
+    "paths": {
+      "source": "assets/",
+      "dist": "dist/"
+    }
+  }
+}
