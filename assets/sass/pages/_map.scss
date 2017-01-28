@@ -4,7 +4,18 @@
 }
 
 .sidebar-left {
+  font-family: $font;
   background-color: $off-white;
   height: 800px;
   width: 100%;
+  padding: 20px;
+
+  .sidebar-introduction {
+    font-size: 18px;
+  }
 }
+
+.selector {
+  padding-bottom: 20px;
+}
+
