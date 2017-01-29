@@ -1,3 +1,4 @@
+<?php require "lib/init.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,13 +28,15 @@
             <label for="region-selector">Choose Region:</label>
             <div class="selector region-selector">
               <select name="region" id="region-selector" class="form-control js-region-selector">
-                <option>Raheny</option>
+                <option>Choose Region..</option>
+                <option value="Raheny">Raheny</option>
               </select>
             </div>
 
             <div class="selector crime-selector">
               <label for="crime-selector">Choose Crime:</label>
               <select name="crime" id="crime-selector" class="form-control js-crime-selector">
+                <option>Choose Crime...</option>
                 <option value="1">Attempts/Threats/Murder/Assaults/Harassments</option>       
                 <option value="2">Dangerous or negligent acts</option>       
                 <option value="3">Kidnapping and related offences</option>       
