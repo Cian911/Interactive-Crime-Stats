@@ -19,6 +19,7 @@ class ImportCSV {
     // Re-index keys
     $csv_data = array_values($csv_data);
 
+    // Remove empty string values in array
     foreach( $csv_data as &$data ) {
       if($data[0] === ' ') {
         unset($data[0]);
@@ -52,7 +53,14 @@ class ImportCSV {
     }
 
     return $import_data;
+  }
 
+  public function getCSVFile() {
+    return $this->csv_file;
+  }
+
+  public function setCSVFile( $file ) {
+    $this->csv_file = $file;
   }
 
 }
